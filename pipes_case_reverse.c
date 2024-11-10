@@ -1,4 +1,4 @@
-include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <ctype.h>
@@ -6,7 +6,7 @@ include<stdio.h>
 
 #define MessageSize 999
 
-    void reverse_case(char *str)
+void reverse_case(char *str)
 {
     for (int i = 0; str[i]; i++)
     {
